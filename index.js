@@ -3,11 +3,8 @@
 let ilkSayı = 5;
 
 function increment(){
-    ilkSayı += 6;
-    console.log(ilkSayı);
-
+   const karakterIsmi = "Jack";
+   console.log(karakterIsmi);
 }
-increment();
-increment();
-increment();
-increment();
+
+increment()
