@@ -1,0 +1,29 @@
+.baslik{
+    color: brown;
+}
+
+#ikinciBaslik{
+    color: burlywood;
+}
+
+.baslik,     /*virgüllü seçici -> seçtiklerimize uygular */
+.paragraf{
+    font-size: 30px;
+}
+
+.divider p{   /*boşluklu seçici -> içindeki bütün seçilen elemanları seçer */
+    color: indigo;
+}
+
+.divider-two > p {  /*child selector -> direkt çocuğu olan elementi seçer */
+background: darkred;
+
+}
+
+.span-one + h4{
+    background-color: darkgreen;
+}
+
+h5 ~div{
+    background: yellow;
+}
