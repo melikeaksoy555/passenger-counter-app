@@ -8,4 +8,12 @@ function increment(){
    incrementBasligi.innerHTML = ilkSayi;
 }
 
+function save(){
+   console.log("kayıt edildi");
+}
+// "isim" string
+// 5 int
+
+
+
 
