@@ -1,10 +1,16 @@
 // document.getElementById("counter-el").innerHTML = 5;
 
-let ilkSayı = 5;
+let ilkSayı = 0;
 
 function increment(){
-   const karakterIsmi = "Jack";
-   console.log(karakterIsmi);
+  
+   ilkSayı =  ilkSayı + 1
+   console.log(ilkSayı)
+
 }
 
-increment()
+increment();
+increment();
+increment();
+increment();
+increment();
