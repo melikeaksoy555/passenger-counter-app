@@ -1,4 +1,5 @@
 const incrementBasligi = document.getElementById("counter-el");
+const previousEntries = document.getElementById("save-el");
 
 let ilkSayi = 0;
 
@@ -9,19 +10,10 @@ function increment(){
 }
 
 function save(){
-   console.log("kayıt edildi");
+   let girisStr = ilkSayi + " - ";
+   previousEntries.innerHTML += girisStr;
 }
-// "isim" string
-// 5 int
-const isim = "Alperen";
 
-const hosgeldinMesaji = "Merhaba Hoşgeldiniz ";
-
-const sayi = 10;
-
-const ikinciSayi = 5;
-
-console.log(sayi + ikinciSayi);
 
 
 
