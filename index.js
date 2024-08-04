@@ -13,7 +13,15 @@ function save(){
 }
 // "isim" string
 // 5 int
+const isim = "Alperen";
 
+const hosgeldinMesaji = "Merhaba Hoşgeldiniz ";
+
+const sayi = 10;
+
+const ikinciSayi = 5;
+
+console.log(sayi + ikinciSayi);
 
 
 
