@@ -1,3 +1,6 @@
 a[target="_blank"]{
     background: yellowgreen;
 }
+a[href="https://www.youtube.com/"]{
+    background: purple;
+}
