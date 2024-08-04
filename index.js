@@ -1,10 +1,11 @@
-// document.getElementById("counter-el").innerHTML = 5;
+const incrementBasligi = document.getElementById("counter-el");
 
-let ilkSayı = 0;
+let ilkSayi = 0;
 
 function increment(){
-  
-   ilkSayı =  ilkSayı + 1
-   console.log(ilkSayı)
-
+   ilkSayi =  ilkSayi + 1;
+   
+   incrementBasligi.innerHTML = ilkSayi;
 }
+
+
