@@ -12,6 +12,8 @@ function increment(){
 function save(){
    let girisStr = ilkSayi + " - ";
    previousEntries.innerHTML += girisStr;
+   incrementBasligi.innerText = 0;
+   ilkSayi = 0;
 }
 
 
