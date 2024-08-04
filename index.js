@@ -8,9 +8,3 @@ function increment(){
    console.log(ilkSayı)
 
 }
-
-increment();
-increment();
-increment();
-increment();
-increment();
