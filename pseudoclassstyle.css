@@ -1,0 +1,34 @@
+a:hover{    /* fare imleci bir öğenin üzerine geldiğinde */
+    background: yellow;
+}
+
+h1:hover{
+    background: yellow;
+}
+
+h2:active{   /* bir öğe tıklandığında veya seçildiğinde */
+    color:green;
+}
+
+input:focus{   /*"input:focus" ifadesi, bir giriş alanına odaklandığında uygulanacak stiller */
+    border: 5px solid green;
+}
+
+p:first-child{  /*Bir öğenin ebeveyni içindeki ilk çocuğu seçmek */
+    background: blue;
+    color: white;
+}
+
+p:last-child{    /*Bir öğenin ebeveyni içindeki son öğeyi seçmek */
+    background: pink;
+}
+
+p:nth-child(3){
+    background: darkred;
+    color:white;
+}
+
+p:nth-child(4n-1){
+    background: darkorange;
+    color:white;
+}
